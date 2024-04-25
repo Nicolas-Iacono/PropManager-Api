@@ -1,5 +1,6 @@
 import { Sequelize } from "sequelize";
-import dontenv from 'dotenv'
+import dontenv from "dotenv"
+
 
 dontenv.config();
 const sequelize = new Sequelize(
